@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Wen.DALFactory\Wen.DALFactory.csproj" />
+    <ProjectReference Include="..\Wen.IDAL\Wen.IDAL.csproj" />
+    <ProjectReference Include="..\Wen.Model\Wen.Model.csproj" />
+  </ItemGroup>
+
+</Project>
