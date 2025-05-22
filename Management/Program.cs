@@ -12,8 +12,9 @@ namespace Management
         static void Main()
         {
 
-            ApplicationConfiguration.Initialize();
-            Application.Run(new LoginForm());
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(true);
+            Application.Run(new MainForm());
             //AntdUI.Localization.DefaultLanguage = "zh-CN";
             ////若文字不清晰，切换其他渲染方式
             //AntdUI.Config.TextRenderingHint = System.Drawing.Text.TextRenderingHint.AntiAliasGridFit;
